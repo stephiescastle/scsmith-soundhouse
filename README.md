@@ -6,9 +6,10 @@ Install [tmux](http://brewformulas.org/Tmux) to streamline pi commands.
 
 1. connect to 'pi' network
 2. create 8 panes in terminal using tmux
-	1. `ctrl` + `b` + `%` x4 (vertical split)
-	2. `ctrl` + `b` + `,` x4 (horizontal split)
-	3. `ctrl` + `b` + `cursor` to navigate
+	1. `tmux new`
+	2. `ctrl` + `b` + `%` x4 (vertical split)
+	3. `ctrl` + `b` + `,` x4 (horizontal split)
+	4. `ctrl` + `b` + `cursor` to navigate
 
 3. log onto each pi from terminal
 	```
@@ -45,7 +46,7 @@ This could become an issue if the python process was running and not shut down. 
 1. `ps aux | grep python`
 2. `kill pid`
 
-Note, the `pid` is different for each pi so you will need to toggle out of synchronized panes to do this.
+Note, the `pid` is different for each pi so you will need to toggle out of synchronized panes to do the `kill` commands.
 
 ## Other helpful commands
 
