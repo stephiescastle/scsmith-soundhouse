@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 499.0, 79.0, 907.0, 1046.0 ],
+		"rect" : [ 470.0, 154.0, 907.0, 1046.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -4113,7 +4113,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 540.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 100."
+									"text" : "/sineGain 0.393701"
 								}
 
 							}
@@ -4269,7 +4269,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 465.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 95."
+									"text" : "/sineGain 0.393701"
 								}
 
 							}
@@ -4425,7 +4425,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 390.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 90."
+									"text" : "/sineGain 0.393701"
 								}
 
 							}
@@ -4581,7 +4581,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 315.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 110."
+									"text" : "/sineGain 0.393701"
 								}
 
 							}
@@ -4737,7 +4737,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 240.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 105."
+									"text" : "/sineGain 0.393701"
 								}
 
 							}
@@ -4893,7 +4893,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 165.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 100."
+									"text" : "/sineGain 0.393701"
 								}
 
 							}
@@ -5049,7 +5049,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 90.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 95."
+									"text" : "/sineGain 0.393701"
 								}
 
 							}
@@ -5205,7 +5205,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 90."
+									"text" : "/sineGain 0.393701"
 								}
 
 							}
@@ -5660,7 +5660,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
