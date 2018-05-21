@@ -8,7 +8,7 @@ Install [tmux](http://brewformulas.org/Tmux) to streamline pi commands.
 2. create 8 panes in terminal using tmux
 	1. `tmux new`
 	2. `ctrl` + `b` + `%` x4 (vertical split)
-	3. `ctrl` + `b` + `,` x4 (horizontal split)
+	3. `ctrl` + `b` + `"` x4 (horizontal split)
 	4. `ctrl` + `b` + `cursor` to navigate
 
 3. log onto each pi from terminal
@@ -26,13 +26,15 @@ Install [tmux](http://brewformulas.org/Tmux) to streamline pi commands.
 
 3. Run sensors: `python3 oscDistance.py --hostIp {YOURIP} &`
 
-4. Run audio: 
+4. Hit enter to start a new command after python scripts have started
+
+5. Run audio: 
 	```
 	cd ../chuck
 	chuck receiver.ck
 	```
 
-5. Run max patch on computer (not pis)
+6. Run max patch on computer (not pis)
 
 ## Shutting Down the Pis
 
