@@ -5148,6 +5148,10 @@
 							"number" : 7,
 							"data" : [ 5, "obj-74", "number", "int", 300, 5, "obj-75", "number", "int", 300, 5, "obj-76", "number", "int", 300, 5, "obj-71", "number", "int", 300, 5, "obj-69", "number", "int", 300, 5, "obj-67", "number", "int", 300, 5, "obj-65", "number", "int", 300, 5, "obj-27", "number", "int", 300 ]
 						}
+, 						{
+							"number" : 8,
+							"data" : [ 5, "obj-74", "number", "int", 862, 5, "obj-75", "number", "int", 1348, 5, "obj-76", "number", "int", 600, 5, "obj-71", "number", "int", 1053, 5, "obj-69", "number", "int", 418, 5, "obj-67", "number", "int", 592, 5, "obj-65", "number", "int", 806, 5, "obj-27", "number", "int", 454 ]
+						}
  ],
 					"style" : ""
 				}
@@ -6315,7 +6319,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 155.0, 345.0, 1826.0, 346.0 ],
+						"rect" : [ 426.0, 319.0, 1826.0, 346.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -8171,14 +8175,14 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-23",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 540.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 280.955502"
+									"text" : "/sineFreq 862."
 								}
 
 							}
@@ -8327,14 +8331,14 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-20",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 465.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 360.66317"
+									"text" : "/sineFreq 1348."
 								}
 
 							}
@@ -8483,14 +8487,14 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-17",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 390.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 215.98219"
+									"text" : "/sineFreq 600."
 								}
 
 							}
@@ -8639,14 +8643,14 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-14",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 315.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 432.986294"
+									"text" : "/sineFreq 1053."
 								}
 
 							}
@@ -8802,7 +8806,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 240.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 470.961024"
+									"text" : "/sineFreq 450.22"
 								}
 
 							}
@@ -8958,7 +8962,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 165.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 527.620569"
+									"text" : "/sineFreq 601.985643"
 								}
 
 							}
@@ -9107,14 +9111,14 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 90.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 403.984942"
+									"text" : "/sineFreq 816."
 								}
 
 							}
@@ -9263,14 +9267,14 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-4",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 499.341808"
+									"text" : "/sineFreq 480.3"
 								}
 
 							}
