@@ -1195,7 +1195,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 213.0, 293.0, 109.0, 22.0 ],
 									"style" : "",
-									"text" : "scale 0 127 0 -300"
+									"text" : "scale 0 127 0 -100"
 								}
 
 							}
@@ -2429,7 +2429,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 117.0, 256.0, 105.0, 22.0 ],
 									"style" : "",
-									"text" : "scale 0 127 0 300"
+									"text" : "scale 0 127 0 100"
 								}
 
 							}
@@ -8310,7 +8310,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 540.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineGain 0."
+									"text" : "/brickPlay 0"
 								}
 
 							}
@@ -8466,7 +8466,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 465.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineGain 0."
+									"text" : "/brickPlay 5"
 								}
 
 							}
@@ -8622,7 +8622,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 390.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 600."
+									"text" : "/sineGain 0."
 								}
 
 							}
@@ -8934,7 +8934,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 240.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineGain 0."
+									"text" : "/brickPlay 8"
 								}
 
 							}
@@ -9090,7 +9090,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 165.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 592."
+									"text" : "/brickPlay 5"
 								}
 
 							}
@@ -9246,7 +9246,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 90.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 806."
+									"text" : "/sineGain 0."
 								}
 
 							}
@@ -9402,7 +9402,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 97.0, 64.0, 35.0 ],
 									"style" : "",
-									"text" : "/sineFreq 454."
+									"text" : "/sineGain 0."
 								}
 
 							}
@@ -9881,7 +9881,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1043.0, 394.0, 90.0, 22.0 ],
 									"style" : "",
-									"text" : "/brickPlay 10"
+									"text" : "/brickPlay 0"
 								}
 
 							}
@@ -9922,7 +9922,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 900.0, 394.0, 90.0, 22.0 ],
 									"style" : "",
-									"text" : "/brickPlay 16"
+									"text" : "/brickPlay 5"
 								}
 
 							}
@@ -9963,7 +9963,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 752.0, 394.0, 90.0, 22.0 ],
 									"style" : "",
-									"text" : "/brickPlay 8"
+									"text" : "/brickPlay 14"
 								}
 
 							}
@@ -10004,7 +10004,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 606.0, 394.0, 90.0, 22.0 ],
 									"style" : "",
-									"text" : "/brickPlay 1"
+									"text" : "/brickPlay 7"
 								}
 
 							}
@@ -10045,7 +10045,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 463.0, 394.0, 90.0, 22.0 ],
 									"style" : "",
-									"text" : "/brickPlay 4"
+									"text" : "/brickPlay 8"
 								}
 
 							}
@@ -10086,7 +10086,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 316.0, 394.0, 90.0, 22.0 ],
 									"style" : "",
-									"text" : "/brickPlay 6"
+									"text" : "/brickPlay 5"
 								}
 
 							}
@@ -10127,7 +10127,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 170.0, 394.0, 90.0, 22.0 ],
 									"style" : "",
-									"text" : "/brickPlay 6"
+									"text" : "/brickPlay 16"
 								}
 
 							}
@@ -10168,7 +10168,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 35.0, 394.0, 90.0, 22.0 ],
 									"style" : "",
-									"text" : "/brickPlay 9"
+									"text" : "/brickPlay 14"
 								}
 
 							}
@@ -15093,11 +15093,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-198" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-216" : [ "live.gain~[7]", "live.gain~", 0 ],
+			"obj-204" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-210" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-96" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-204" : [ "live.gain~[5]", "live.gain~", 0 ]
+			"obj-198" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-96" : [ "live.gain~[2]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
