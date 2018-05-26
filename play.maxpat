@@ -38,13 +38,13 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "button",
+					"id" : "obj-6",
+					"maxclass" : "comment",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 200.0, 123.0, 24.0, 24.0 ],
-					"style" : ""
+					"numoutlets" : 0,
+					"patching_rect" : [ 84.0, 106.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "bc some toggles are 127"
 				}
 
 			}
@@ -55,9 +55,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 37.699738, 77.0, 36.0, 22.0 ],
+					"patching_rect" : [ 36.699738, 104.0, 36.0, 22.0 ],
 					"style" : "",
-					"text" : "sel 1"
+					"text" : "sel 0"
 				}
 
 			}
@@ -164,21 +164,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-81", 0 ],
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-81", 0 ],
-					"source" : [ "obj-100", 0 ]
+					"source" : [ "obj-100", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-99", 0 ],
-					"source" : [ "obj-100", 1 ]
+					"source" : [ "obj-100", 0 ]
 				}
 
 			}
